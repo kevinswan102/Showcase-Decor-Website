@@ -1,6 +1,6 @@
 <?php
 /* Database credentials. */
-define('DB_SERVER', 'elvis.rowan.edu');
+define('DB_SERVER', '');
 define('DB_USERNAME', 'swank8');
 define('DB_PASSWORD', '');
 define('DB_NAME', 'swank8');

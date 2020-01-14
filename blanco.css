@@ -1,0 +1,11 @@
+@font-face { font-family: 'Blanco'; src: url("https://static.production.sf.facultyclients.co/5ed877dfa87b1049433441a2cf4ef0020de226084256c4cafdaeb85cacffd1d346a85663072fe500f936a9e39d834e81-2019102003/fonts/Blanco-Regular.eot"); 
+src: url(https://static.production.sf.facultyclients.co/5ed877dfa87b1049433441a2cf4ef0020de226084256c4cafdaeb85cacffd1d346a85663072fe500f936a9e39d834e81-2019102003/fonts/Blanco-Regular.eot?#iefix) format("embedded-opentype"), 
+url("https://static.production.sf.facultyclients.co/396ada5f29cbf5401133bf6df5ce8368e34269f472078f81f58aa9aa6083a0a620e45d2c80f9eb8ebfc7745b122f1e98-2019102003/fonts/Blanco-Regular.woff2") format("woff2"), 
+url("https://static.production.sf.facultyclients.co/92af945e57d69e51b40dae5ce0e483ee064b4684c339e97cd0b7da20c7afed521abe68785cfba9cf7db4c9cb959998ab-2019102003/fonts/Blanco-Regular.woff") 
+format("woff"); font-weight: 400; font-style: normal; font-stretch: normal; }
+
+@font-face { font-family: 'Blanco'; src: url("https://static.production.sf.facultyclients.co/d4291f284a394fca57049f61c97a6424d7c3a394d8bca761f155827179b1932f4915d684188840501606de7c1ac29b9a-2019102003/fonts/Blanco-Bold.eot"); 
+src: url(https://static.production.sf.facultyclients.co/d4291f284a394fca57049f61c97a6424d7c3a394d8bca761f155827179b1932f4915d684188840501606de7c1ac29b9a-2019102003/fonts/Blanco-Bold.eot?#iefix) format("embedded-opentype"), 
+url("https://static.production.sf.facultyclients.co/19aefd9dc9b2308f473c87649ad70ab12d5c617cc6f1382ba5bf5a8e0f43b4429eff6018e016c1a014d0318c7268ab6c-2019102003/fonts/Blanco-Bold.woff2") format("woff2"),
+ url("https://static.production.sf.facultyclients.co/6517efbadc6045ff6e3cdfa5cb6915d9e13a75f8ba4e7a826bad931c7446e373d30ca1e4b751753b28b27b256f5ed23f-2019102003/fonts/Blanco-Bold.woff") format("woff");
+ font-weight: 700; font-style: normal; font-stretch: normal; }

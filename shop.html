@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Shop Showcase Decor &mdash; Express yourself.</title>
+	<!--Kevin Swan --> 
+	<!--NAVBAR DESIGN, FOOTER DESIGN, AND MOST ASPECTS OF THE STYLE SHEETS ARE NOT MINE, obtained from www.simplyframed.com, will change design further in the future--> 
+	<!--CART FUNCTIONALITY IS MODIFIED FROM BURLAKA DYMTRO: https://codepen.io/Dimasion/pen/oBoqBM --> 
+	
+	
+	  <!--Cart--> 
+	 <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	 
+ <!-- CSS Stylesheets -->
+	<link rel="stylesheet" href="blanco.css">
+	 <link rel="stylesheet" href="national.css">
+	<link rel="stylesheet" href="navigation.css">
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="style.css">
+	  
+	  <style> 
+	  ul {
+	     text-align: left;
+    list-style-position: inside;
+}
+
+</style> 
+</head> 
+
+
+
+<!--NAVBAR--> 
+<body class="home">   
+	<header>
+        <div id="logo">
+            <a href="index.html"><img src="Logos/2019PlatformB2LEGO_1.png" alt = "Showcase Decor Logo" > </a>
+        </div>    
+        <a href="signin.html" id="account">Sign In</a>
+        <a href="#" id="checkout" data-toggle="modal" data-target="#cart"> <!--COME BACK TO DATA TOGGLE --> 
+            <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+    <!--Shopping cart sketch-->
+    <title>Icons/Cart</title>
+    <g id="Icons/Cart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-2" fill="#848484" fill-rule="nonzero" cx="11" cy="18.5" r="1.5"></circle>
+        <circle id="Oval-2-Copy" fill="#848484" fill-rule="nonzero" cx="16" cy="18.5" r="1.5"></circle>
+        <polyline id="Path-3" stroke="#848484" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" points="4 6 7.0154084 6 9.97207575 15.0123096 16.9677612 15.0123096 19.0100997 8.9307336 8.06616652 8.9307336"></polyline>
+    </g>
+</svg>
+        </a>
+		
+		
+		<!-- Minimize page, menu square appears --> 
+        <div id="overflow">
+            <a href="#main-nav">
+			
+			
+                <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Menu</title>
+    <g id="Icons/Menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="4.5" y="6.5" width="15" height="1" rx="0.5"></rect>
+        <rect id="Rectangle-Copy" stroke="#979797" fill="#D8D8D8" x="4.5" y="11.5" width="15" height="1" rx="0.5"></rect>
+        <rect id="Rectangle-Copy-2" stroke="#979797" fill="#D8D8D8" x="4.5" y="16.5" width="15" height="1" rx="0.5"></rect>
+    </g>
+</svg>
+            </a>
+        </div>
+	
+        <nav id="main-nav">
+            <div id="logo" style="width: 84px; height: 48px; margin: 24px 26px;">
+                <a href="index.html"><img src="ShowcaseDecorDISPLFRMSLogo.jpg"  alt="Showcase Decor Logo" style="display: block; width: 84px; height: 48px;"></a>
+            </div>
+         
+		 <a class="close_menu" href="#"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Close</title>
+    <g id="Icons/Close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <path d="M7.5,7.5 L16.5,16.5" id="Line-3" stroke="#848484" stroke-width="2"></path>
+        <path d="M7.5,7.5 L16.5,16.5" id="Line-3-Copy" stroke="#848484" stroke-width="2" transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) "></path>
+    </g>
+</svg>
+</a>
+            <ul>
+                <li id="nav-frame" tabindex="0" class="subnav-trigger">
+                    <a href="shop.html">Shop</a>
+
+                    <div class="subnav" id="subnav-frame">
+                        <div>
+                            <div>
+                                <h1>What would you like to display?</h1>
+                                <p>We have frame selections for various collectibles.</p>
+                            </div>
+							
+							 <nav>
+                                <h1 class="label">Shop All Frames</h1>
+                                <ul>
+                                    <li><a href="shop.html">Shop Here!</a></li>
+                                </ul>
+                            </nav>
+							
+                            <nav>
+                                <h1 class="label">Frames for Sporting Items</h1>
+                                <ul>
+                                    <li><a href="shop.html">Golf Balls</a></li>
+                                    <li><a href="shop.html">Baseballs</a></li>
+                                </ul>
+                            </nav>
+							
+							
+                            <nav>
+                                <h1 class="label">Other Fames</h1>
+                                <ul>                                    
+                                    <li><a href="shop.html">Diecast Vehicle Frames</a></li>
+                                    <li><a href="shop.html">Action Figure Frames </a></li>
+                                    <li><a href="shop.html">Medal Display Frames</a></li>
+                                </ul>
+                            </nav>
+                            
+                            <aside id="promo-sfblack">
+                               <a href="index.html"><img src="Logos/2019PlatformB2LEGO_1.png"  alt = "Showcase Logo"/></a>
+                            </aside>
+						</div>
+                    </div>
+                </li>
+            </ul>
+		
+
+            <div id="menu-account-nav">    
+                <a href="signin.html" class="button secondary" id="account">Sign In</a>   
+            </div>
+        </nav>
+    </header>
+	<!--NAVBAR END --> 
+    
+    <main>    
+    <section class="shop-social">
+	<div style="background-color:#F2F2F2; padding-bottom: 20;">
+        <div class="contain" style="padding-top:30px">
+		  <button class="btn primary" type="submit"  data-toggle="modal" data-target="#cart">Checkout</button>
+		<div class="four-up carded">
+		
+		
+		<!--Button popup script --> 
+		<script> 
+		function popup(){
+		alert("Item added to cart")
+		}
+		</script>
+	
+		<!-- Section 1 --> 
+   <section>
+      <img src="WEBSITE/ActionFigureFramecomponents.jpg" alt="Frame" />
+	 
+	  
+	  <div style= "background-color:#fff; padding: 20px; padding-bottom: 30px;">
+      <h2>Frame For Action Figures </h2>
+      <p> 
+	 <center> 
+	  Use with sports cars, movies cars, race cars, model vehicles, and more!<br> <br>
+	  	 Perfect for 1:32 and 1:43 scale vehicles up to 8". <br><br>
+	 
+	 <b>Includes: </b> <br>
+	 <ul>
+	 <li>Black low-profile frame for 8" x 10" backgrounds with glass</li> <br> 
+	<li>4.5"w x 3"d black platform  </li><br> 
+	<li>Attachment screws, rubber feet, command tape and hanging template</li>
+	</ul>
+
+	 </center></p>
+     
+	 
+	  <center>
+        <h5> 
+		Price: $24.99<br><br>
+		In stock<br><br>
+		</h5>
+		</center>
+		<!-- <a href="#" data-name="Orange" data-price="24.99" class="btn primary">Add to cart</a>   btn primary --> 
+		<button class ="btn add-to-cart btn btn-primary" data-name="Action Figure Frame" data-price="24.99" onclick = "popup()">Add to cart</button>
+		<!-- <a href="#" data-name="Orange" data-price="0.5" class="add-to-cart btn btn-primary">Add to cart</a> -->
+        <!--<button class="btn primary" type="submit" onclick ="addToCart()">Add to cart</button> --> 
+      
+	  </div>
+    </section>
+
+<!-- Section 2 --> 
+	<section>
+      <img src="WEBSITE/BaseballFramecomponents.jpg" alt="Frame" />
+	
+	  
+	  <div style= "background-color:#fff; padding: 20px; padding-bottom: 30px;">
+      <h2>Frame For Baseballs </h2>
+      <p> 
+	 <center> 
+	  Use with sports cars, movies cars, race cars, model vehicles, and more!<br> <br>
+	  	 Perfect for 1:32 and 1:43 scale vehicles up to 8". <br><br>
+	 
+	 <b>Includes: </b> <br>
+	 <ul>
+	 <li>Black low-profile frame for 8" x 10" backgrounds with glass</li> <br> 
+	<li>4.5"w x 3"d black platform  </li><br> 
+	<li>Attachment screws, rubber feet, command tape and hanging template</li>
+	</ul>
+
+	 </center></p>
+     
+	 
+	  <center>
+        <h5> 
+		Price: $24.99<br><br>
+		In stock<br><br>
+		</h5>
+		</center>
+       	<button class ="btn add-to-cart btn btn-primary" data-name="Baseball Frame" data-price="24.99" onclick = "popup()">Add to cart</button>
+      
+	  </div>
+    </section>
+	
+	<!-- Section 3 --> 
+	<section>
+      <img src="WEBSITE/DiecastFramecomponents.jpg" alt="Frame" />
+
+	  
+	  <div style= "background-color:#fff; padding: 20px; padding-bottom: 30px;">
+      <h2>Frame For Diecast Models </h2>
+      <p> 
+	 <center> 
+	  Use with sports cars, movies cars, race cars, model vehicles, and more!<br> <br>
+	  	 Perfect for 1:32 and 1:43 scale vehicles up to 8". <br><br>
+	 
+	 <b>Includes: </b> <br>
+	 <ul>
+	 <li>Black low-profile frame for 8" x 10" backgrounds with glass</li> <br> 
+	<li>8"w x 3"d black platform  </li><br> 
+	<li>Attachment screws, rubber feet, command tape and hanging template</li>
+	</ul>
+
+	 </center></p>
+     
+	 
+	  <center>
+        <h5> 
+		Price: $24.99<br><br>
+		In stock<br><br>
+		</h5>
+		</center>
+        	<button class ="btn add-to-cart btn btn-primary" data-name="Diecast Model Frame" data-price="24.99" onclick = "popup()">Add to cart</button>
+      
+	  </div>
+    </section>
+	
+	
+	
+    <!-- Section 4 --> 
+	<section>
+      <img src="WEBSITE/Spartan2018Framecomponents.jpg" alt="Frame" />
+	  
+	  <div style= "background-color:#fff; padding: 20px; padding-bottom: 30px;">
+      <h2>Frame For Medals </h2>
+      <p> 
+	 <center> 
+	  Use with sports cars, movies cars, race cars, model vehicles, and more!<br> <br>
+	  	 Perfect for 1:32 and 1:43 scale vehicles up to 8". <br><br>
+	 
+	 <b>Includes: </b> <br>
+	 <ul>
+	 <li>Black low-profile frame for 8" x 10" backgrounds with glass</li> <br> 
+	<li>4.5"w x 3"d black platform  </li><br> 
+	<li>A ribbon holder to keep the ribbon neat and readable</li>
+	</ul>
+
+	 </center></p>
+     
+	 
+	  <center>
+        <h5> 
+		Price: $24.99<br><br>
+		In stock <br><br>
+		</h5>
+		</center>
+    	<button class ="btn add-to-cart btn btn-primary" data-name="Medal Frame" data-price="24.99" onclick = "popup()">Add to cart</button>
+      
+	  </div>
+    </section>
+	
+    <!-- Section 5 --> 
+	<section>
+      <img src="WEBSITE/GolfballFramecomponents.jpg" alt="Frame" />
+	
+	  
+	  <div style= "background-color:#fff; padding: 20px; padding-bottom: 30px;">
+      <h2>Frame For Golf Balls </h2>
+      <p> 
+	 <center> 
+	  Use with sports cars, movies cars, race cars, model vehicles, and more!<br> <br>
+	  	 Perfect for 1:32 and 1:43 scale vehicles up to 8". <br><br>
+	 
+	 <b>Includes: </b> <br>
+	 <ul>
+	 <li>Black low-profile frame for 8" x 10" backgrounds with glass</li> <br> 
+	<li>4.5"w x 3"d felt-covered platform  </li><br> 
+	<li>Attachment screws, rubber feet, command tape and hanging template</li>
+	</ul>
+
+	 </center></p>
+     
+	 
+	  <center>
+        <h5> 
+		Price: $24.99<br><br>
+		In stock <br> <br>
+		</h5>
+		</center>
+       <button class ="btn add-to-cart btn btn-primary" data-name="Golf Ball Frame" data-price="24.99" onclick = "popup()">Add to cart</button>
+      
+	  </div>
+    </section>
+	
+	 
+   
+  </div>
+   
+        </div>
+		
+		</div>
+		
+		
+    </section>
+	
+
+    <!-- Modal -->
+
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header ">
+        <h5 class="modal-title" id="exampleModalLabel" >Cart</h5>
+       
+      </div>
+      <div class="modal-body" >
+        <table class="show-cart table">
+          
+        </table>
+        <div>Total price: $<span class="total-cart"></span></div>
+      </div>
+      <div class="modal-footer" style = "padding-top: =80px;">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Order now</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="scriptCart.js"></script>
+
+</body>
+   
+       </main>
+  <!-- FOOTER --> 
+  <footer class="footer">
+  <div class="footer-wrap">
+    <div id="contact">
+        <h1>Showcase Decor</h1>
+        <a href="mailto:showcasedisplayframes@gmail.com">showcasedisplayframes@gmail.com</a><br>
+        <a href="tel:201-993-4144">(201) 993-4144</a>
+    </div>
+    <nav>
+        <div>
+		<h1> 
+		We currently accept:
+		</h1>
+		<ul>
+			<li>
+				<img src = "Logos/PaypalLogo.png" alt = "Paypal Logo" />
+			</li>
+		</ul>
+		</div>
+		
+		<div>
+		<ul>
+			<li>
+		<img src = "Logos/Square_CC_logo.png" alt = "Square Logo"/>
+			</li>
+		</ul>
+		</div>
+    </nav>
+    <div id="connect">
+        <form method="POST" action="https://manage.kmail-lists.com/subscriptions/subscribe">
+            <input type="hidden" name="g" value="dRpaxF">
+            <label for="email">Sign up for emails</label>
+            <input type="email" name="EMAIL" id="email" placeholder="Email address">
+            <button class="btn primary" type="submit">Subscribe</button>
+        </form>
+        <div id="social">
+            <ul>
+                <li>
+                  <a href="https://www.instagram.com/showcase_decor/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                  </a>
+                </li>
+			
+                <li>
+                  <a href="https://www.facebook.com/ShowcaseDecorUSA/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                  </a>
+                </li>
+				<li></li> <li> </li>  <li> </li> 
+				
+            </ul>
+        </div>
+    </div>
+  </div>
+</footer>
+
+
+	  
+
+</html> 

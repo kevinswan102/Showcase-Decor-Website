@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+
+body { padding: 0; margin: 0; font-family: 'National2',-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; }
+
+body > header { display: grid; grid-template-columns: 105px auto 24px 48px; overflow: hidden; height: 60px; background: #FFFFFF; box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.15); align-items: center; justify-items: right; padding: 0 16px 0 0; }
+
+body > header > nav { display: none; }
+
+body > header > nav:target { display: block; }
+
+body > header > nav#main-nav { position: absolute; top: 0; left: 0; right: 0; border: solid 12px #FFFFFF; background: #F4F4F4; box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); z-index: 9999; }
+
+body > header > nav#main-nav > ul { list-style-type: none; padding: 0; margin: 32px 23px 32px 24px; display: grid; grid-template-columns: 50% 50%; }
+
+body > header > nav#main-nav > ul > li { margin-bottom: 24px; }
+
+body > header > nav#main-nav > ul > li:last-child { margin-bottom: 0; }
+
+body > header > nav#main-nav > ul > li > a { color: black; text-decoration: none; font-size: 16px; }
+
+div#menu-account-nav { margin: 32px 24px 32px 23px; }
+
+@media (min-width: 900px) { div#menu-account-nav { display: none; } }
+
+div#menu-account-nav > ul { list-style-type: none; padding: 0; margin: 0; display: flex; grid-template-columns: 1fr 1fr 1fr; justify-content: space-between; flex-wrap: wrap; }
+
+div#menu-account-nav > ul > li { color: #000000; font-size: 14px; font-family: 'National2'; font-weight: normal; line-height: 16px; margin: 8px 0; }
+
+div#menu-account-nav > ul > li > a { color: #000000; text-decoration: none; }
+
+header > #account { display: none; }
+
+div.main { display: none; }
+
+div#logo { justify-self: start; margin-left: 16px; }
+
+div#logo a, div#logo img { display: block; height: 36px; width: 62px; } 
+
+@media (min-width: 900px) { div#logo a, div#logo img { height: 70px; width: 103px; } } /* LOGO IN THE NAV BAR */ 
+
+div#overflow, a#checkout { width: 24px; height: 24px; text-align: right; }
+
+a#checkout { display: flex; align-items: center; width: 38px; color: #000; text-decoration: none; }
+
+nav > a.close_menu { position: absolute; display: block; top: 15px; right: 15px; }
+
+div.subnav { display: none; }
+
+span.cart_count { color: #000000; font-size: 15px; font-family: 'National2'; font-weight: normal; line-height: 20px; }
+
+@media (min-width: 900px) { body > header { display: grid; grid-template-columns: 168px auto 120px 48px; grid-template-rows: 80px; grid-template-areas: "logo nav account checkout"; overflow: hidden; height: 80px; background: #FFFFFF; box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.15); align-items: center; justify-items: right; padding: 0 16px 0 0; } header > div#overflow { display: none; } body > header > nav#main-nav div#logo { display: none; } body > header > nav#main-nav { grid-area: nav; display: block; position: static; top: initial; left: initial; right: initial; width: 100%; border: none; background: none; box-shadow: none; } body > header > nav#main-nav > ul { width: 100%; margin: 0; display: flex; flex-direction: row; justify-content: center; align-items: stretch; font-family: 'National2',-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; height: 80px; } body > header > nav#main-nav > ul > li { display: flex; margin: 0; } body > header > nav#main-nav > ul > li > a { margin: 0 32px; display: flex; align-items: center; justify-content: center; border-bottom: solid 5px rgba(255, 255, 255, 0); } body > header > nav#main-nav > ul > li:hover > a { border-bottom: solid 5px #04734A; } body > header > nav#main-nav > ul > li:focus > a { border-bottom: solid 5px #04734A; } body > header > nav#main-nav > ul > li:hover > a, body > header > nav#main-nav > ul > li:focus > a { color: #04734A; } body > header > nav#main-nav > a.close_menu { display: none; } body > header > a#checkout { grid-area: checkout; } div#spacer { grid-area: account; display: none; } div.subnav { display: none; position: absolute; top: 80px; left: 0; right: 0; background-color: white; box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.1); z-index: 3; } div.subnav > div { max-width: 1200px; margin: auto; display: grid; grid-template-columns: 288px 1fr 1fr 1fr; grid-column-gap: 20px; padding: 20px 20px 20px 40px; } div#subnav-print > div { grid-template-columns: 288px auto; padding-bottom: 24px; } div.subnav > div > div { align-self: center; margin-right: 48px; } div.subnav > div > div > h1 { color: #04734A; font-size: 24px; font-family: 'Blanco', Georgia, serif; text-align: center; letter-spacing: 0; line-height: 28px; font-weight: normal; } div.subnav > div > div > p { color: #000000; font-size: 14px; font-family: 'National2',-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; font-weight: normal; text-align: center; line-height: 20px; } nav#main-nav > ul > li.subnav-trigger:hover > a ~ div.subnav, nav#main-nav > ul > li.subnav-trigger:focus > a ~ div.subnav, div.subnav:hover { display: block; } aside#promo-sfblack { max-width: 240px; max-height: 240px; display: none; } aside#promo-sfblack > a img { width: 100%; } div.subnav > div > nav > ul { margin: 16px 0 8px 0; list-style-type: none; margin: 0; padding: 0; color: #000000; font-size: 14px; font-family: 'National2',-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; font-weight: normal; line-height: 28px; } div#subnav-print > div > nav > ul { display: flex; flex-direction: row; justify-content: space-between; } div#subnav-print > div > nav > ul > li { max-width: 200px; margin-right: 20px; } div.subnav > div > nav > ul > li > a { text-decoration: none; color: #343434; } div.subnav > div > nav > ul > li > a:hover { text-decoration: underline; color: #04734A; } div#subnav-print > div > nav > ul > li > a { font-weight: 500; } div#subnav-print > div > nav > ul > li > a > img { width: 100%; display: block; margin-bottom: 8px; } div#subnav-print > div > nav > ul > li > a:hover > img { opacity: 0.5; transition: 0.2s all ease; } header > #account { grid-area: account; display: block; } header > details#account > summary, header > a#account { display: flex; align-items: center; column-gap: 6px; color: #000000; font-size: 15px; font-family: 'National2',-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; font-weight: normal; line-height: 20px; text-decoration: none; } details summary::-webkit-details-marker { display: none; } nav#account-nav { display: block; position: absolute; top: 60px; right: 30px; background: #FFFFFF; border: 1px solid #E4E4E4; box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15); border-radius: 4px 4px 4px 4px; width: 217px; z-index: 5; } nav#account-nav ul { list-style-type: none; padding: 0; margin: 0; } nav#account-nav ul li { padding: 12px 32px; color: #000000; font-size: 14px; font-family: 'National2',-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol; font-weight: normal; line-height: 18px; } nav#account-nav ul li:hover { background: rgba(0, 141, 223, 0.1); } nav#account-nav ul li a { text-decoration: none; color: #000000; } }
+
+@media (min-width: 1024px) { /* We hide Black Label promo at 900px to 1024px due to lack of horz room. */ aside#promo-sfblack { display: block; } div.subnav > div { grid-template-columns: 290px 1fr 1fr 1fr 240px; } div.menu-account-nav { display: none; } }

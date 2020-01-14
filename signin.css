@@ -1,0 +1,25 @@
+main#sign-in { flex-grow: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: calc(100vh - 80px - 245px - 3.25rem); /* 80px height of header; 245 shortest height of footer; 3rem top margin of footer, plus a little extra */ }
+
+main#sign-in > form { width: 100%; max-width: 345px; } 
+
+h1 { color: #04734A; font-size: 24px; font-family: 'Blanco', Georgia, serif; font-weight: 400; text-align: left; letter-spacing: 0; line-height: 28px; margin-top: 2rem; }
+
+main#sign-in > form > div > label { display: block; margin: 24px 0 12px 0; }
+
+main#sign-in > form > div > input { display: block; width: 100%; }
+
+main#sign-in > form > div:last-of-type { text-align: right; }
+
+main#sign-in > form > div > button { margin-top: 24px; }
+
+main#sign-in p.error { color: #D95941; font-size: 14px; }
+
+main#sign-in p.success { color: #04734A; font-size: 14px; }
+
+.signupin-prompt { border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 4px; text-align: center; width: 100%; max-width: 345px; padding: 0.8rem 1rem; font-size: 0.8rem; margin: 2rem 0 0; }
+
+a { text-decoration: none; color: #04734A; }
+
+a:hover, a:visited, a:active { color: #04734A; }
+
+.signupin-prompt a:hover { text-decoration: underline; }

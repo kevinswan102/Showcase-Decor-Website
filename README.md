@@ -1,5 +1,5 @@
 # Showcase-Decor-Website
-Test Website, not fully functional.
+Early stage website. HTML, CSS, and Javascript were primarily used. 
 Does not contain images for copyright purposes.
 ![](images/showcase.PNG)
 ![](images/showcase2.PNG)

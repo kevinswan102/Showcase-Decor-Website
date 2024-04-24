@@ -1,5 +1,5 @@
 # Showcase-Decor-Website
-Early-stage website intended as a draft an e-commerce business. HTML, CSS, and Javascript were primarily used. 
+Demo website intended as a draft an e-commerce business. HTML, CSS, and Javascript were primarily used. 
 Uploaded project does not contain images due to copyright purposes. 
 
 # Screenshots
